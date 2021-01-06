@@ -1,6 +1,6 @@
 # Chatter Box
 
-Flutter application for group chat
+Demo flutter application for group chat
 
 ## Features
 
