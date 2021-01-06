@@ -2,10 +2,10 @@ import 'package:chatter_box/model/message.dart';
 import 'package:chatter_box/providers/data_provider.dart';
 import 'package:chatter_box/ui/common/loader.dart';
 import 'package:chatter_box/utils/constants.dart';
+import 'package:chatter_box/utils/keyboard.dart';
 import 'package:chatter_box/utils/size_config.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
@@ -190,6 +190,10 @@ class _ChatAreaState extends State<ChatArea> {
                   'time': new DateFormat("dd-MM-yyyy hh:mm:ss")
                       .format(DateTime.now()),
                   'message': _messageController.text,
+                });
+                KeyboardUtil.hideKeyboard(context);
+                setState(() {
+                  _messageController.text = "";
                 });
               }
             },
