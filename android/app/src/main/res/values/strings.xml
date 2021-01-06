@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+<string name="app_name">Chatter Box</string>
+<string name="facebook_app_id">544931329819928</string>
+<string name="fb_login_protocol_scheme">fb544931329819928</string>
+
+</resources>
