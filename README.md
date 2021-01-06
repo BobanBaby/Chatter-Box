@@ -2,9 +2,7 @@
 
 Flutter allpication for group chat
 
-## Getting Started
-
-Features 
+## Features
 
 - firebase email signup/signin
 - social login via facebook
