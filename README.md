@@ -5,7 +5,7 @@ Flutter allpication for group chat
 ## Features
 
 - firebase email signup/signin
-- social login via facebook
+- social signin via facebook
 - firestore db for realtime db
 
 
