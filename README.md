@@ -1,6 +1,6 @@
 # Chatter Box
 
-Flutter allpication for group chat
+Flutter application for group chat
 
 ## Features
 
